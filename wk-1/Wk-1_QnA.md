@@ -22,7 +22,7 @@ From the model evaluation results,
 
 I am presenting the 'model_2' accuracy as result.
 
-### Result - 99.24%
+### Result - 99.1%
 
 -------------------------------------
 

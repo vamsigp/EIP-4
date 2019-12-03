@@ -87,21 +87,21 @@ m8.compile(optimizer=Adam(lr=0.003), loss='categorical_crossentropy', metrics=['
 |activation_10 (Activation)   |(None, 30, 30, 48)        |0       |       |       |       |||
 |max_pooling2d_4 (MaxPooling2 |(None, 15, 15, 48)        |0       |2,0,2       |30       |15       |7|1|
 |dropout_6 (Dropout)          |(None, 15, 15, 48)        |0       |       |       |       |||
-|separable_conv2d_3 (Separabl |(None, 15, 15, 96)        |5136    |3,1,1    |15    |15    |11|2|
+|separable_conv2d_3 (Separabl |(None, 15, 15, 96)        |5136    |3,1,1    |15    |15    |10|2|
 |batch_normalization_3 (Batch |(None, 15, 15, 96)        |384     |     |     |     |||
 |activation_11 (Activation)   |(None, 15, 15, 96)        |0        |        |        |        |||
-|separable_conv2d_4 (Separabl |(None, 13, 13, 96)        |10176    |3,0,1    |15    |13    |15|2|
+|separable_conv2d_4 (Separabl |(None, 13, 13, 96)        |10176    |3,0,1    |15    |13    |14|2|
 |batch_normalization_4 (Batch |(None, 13, 13, 96)        |384      |      |      |      |||
 |activation_12 (Activation)   |(None, 13, 13, 96)        |0       |       |       |       |||
-|max_pooling2d_5 (MaxPooling2 |(None, 6, 6, 96)          |0       |2,0,2       |13       |6       |17|2|
+|max_pooling2d_5 (MaxPooling2 |(None, 6, 6, 96)          |0       |2,0,2       |13       |6       |16|2|
 |dropout_7 (Dropout)          |(None, 6, 6, 96)          |0        |        |        |        |||
-|separable_conv2d_5 (Separabl |(None, 6, 6, 192)         |19488     |3,1,1     |6     |6     |25|4|
+|separable_conv2d_5 (Separabl |(None, 6, 6, 192)         |19488     |3,1,1     |6     |6     |24|4|
 |activation_13 (Activation)   |(None, 6, 6, 192)         |0         |         |         |         |||
 |batch_normalization_5 (Batch |(None, 6, 6, 192)         |768       |       |       |       |||
-|separable_conv2d_6 (Separabl |(None, 4, 4, 192)         |38784     |3,0,1     |6     |4     |33|4|
+|separable_conv2d_6 (Separabl |(None, 4, 4, 192)         |38784     |3,0,1     |6     |4     |32|4|
 |activation_14 (Activation)   |(None, 4, 4, 192)         |0         |         |         |         |||
 |batch_normalization_6 (Batch |(None, 4, 4, 192)         |768       |       |       |       |||
-|max_pooling2d_6 (MaxPooling2 |(None, 2, 2, 192)         |0         |2,0,2         |4         |2         |37|4|
+|max_pooling2d_6 (MaxPooling2 |(None, 2, 2, 192)         |0         |2,0,2         |4         |2         |36|4|
 |dropout_8 (Dropout)          |(None, 2, 2, 192)         |0         |         |         |         |||
 |conv2d_7 (Conv2D)            |(None, 1, 1, 10)          |7690      |      |      |      ||8|
 |global_average_pooling2d_1 ( |(None, 10)                |0         |         |         |         |||

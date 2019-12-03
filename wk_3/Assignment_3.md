@@ -103,7 +103,7 @@ m8.compile(optimizer=Adam(lr=0.003), loss='categorical_crossentropy', metrics=['
 |batch_normalization_6 (Batch |(None, 4, 4, 192)         |768       |       |       |       |||
 |max_pooling2d_6 (MaxPooling2 |(None, 2, 2, 192)         |0         |2,0,2         |4         |2         |36|4|
 |dropout_8 (Dropout)          |(None, 2, 2, 192)         |0         |         |         |         |||
-|conv2d_7 (Conv2D)            |(None, 1, 1, 10)          |7690      |      |      |      ||8|
+|conv2d_7 (Conv2D)            |(None, 1, 1, 10)          |7690      |1,0,1      |      |      |36|8|
 |global_average_pooling2d_1 ( |(None, 10)                |0         |         |         |         |||
 |activation_15 (Activation)   |(None, 10)                |0     |     |     |     |||
 

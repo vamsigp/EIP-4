@@ -121,3 +121,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+wk-5/hvc_annotations.csv
+wk-5/hvc_data.zip
+wk-5/resized/
